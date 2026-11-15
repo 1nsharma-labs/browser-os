@@ -1,0 +1,37 @@
+{
+  "name": "browser-os",
+  "version": "2046.1.0",
+  "description": "Autonomous Browser & Web Intelligence Engine for AI Agents (Year 2046 MAX Spec)",
+  "main": "core/src/dom_distiller.js",
+  "type": "module",
+  "bin": {
+    "browser-os": "./core/src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/test_browser.js",
+    "start": "node core/src/server.js",
+    "mcp": "node core/src/mcp.js"
+  },
+  "keywords": [
+    "browser-agent",
+    "web-automation",
+    "browser-use",
+    "mcp-server",
+    "dom-distiller",
+    "token-optimization",
+    "playwright",
+    "markdown-crawler",
+    "ui-verifier",
+    "2046-max"
+  ],
+  "author": "Amit Sharma <amitsharma9976@gmail.com> (https://github.com/1nsharma)",
+  "license": "Apache-2.0",
+  "homepage": "https://1nsharma-labs.github.io/browser-os/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1nsharma-labs/browser-os.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1nsharma-labs/browser-os/issues"
+  }
+}
